@@ -1,0 +1,45 @@
+.first-grid{
+  padding-top: 70px;
+}
+.first-section{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  background-color: #022c02;
+  height: 700px;
+  border-radius: 30px;
+  top: 60px;
+  left: 0;
+  right: 0;
+  margin-bottom: 60px;
+}
+
+.item-grid{
+  padding-right: 30px;
+}
+.item-container{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  width: 400px;
+}
+.thumbnail-info{
+  margin-right: 15px;
+}
+.shop-name{
+  color: white;
+  font-size: 80px;
+  width: 370px;
+  font-family: Passion One;
+}
+.shop-intro{
+  width: 395px;
+  color: white;
+  font-size: 22px;
+  font-family: Afacad Flux;
+  text-align: justify;
+}
+.sofa{
+  width: 400px;
+  border-radius: 15px;
+}

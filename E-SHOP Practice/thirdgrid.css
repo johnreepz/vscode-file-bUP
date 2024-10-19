@@ -1,0 +1,53 @@
+.third-grid{
+  display: grid;
+  grid-template-columns: 300px 300px 300px 300px;
+  align-items: center;
+  justify-content: center;
+  column-gap: 60px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.chair-1, .chair-2, .chair-3, .chair-4{
+  width: 300px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.chair1-section, .chair2-section, .chair3-section, .chair4-section{
+  display: flex;
+  position: relative;
+  z-index: 1;
+}
+.thumbnail-text{
+  display: flex;
+  flex-direction: column;
+}
+.chair-name{
+  font-size: 20px;
+  color: #022c02;
+  font-family: Passion One;
+  cursor: pointer;
+}
+.chair-info{
+  font-size: 12px;
+  color: #022c02;
+  font-family: Afacad Flux;
+  width: 195px;
+  text-align: justify;
+}
+.rating-text{
+  position: absolute;
+  bottom: 135px;
+  right: 10px;
+  color: white;
+  font-size: 11px;
+  font-family: Afacad Flux;
+  background-color: black;
+  width: 70px;
+  height: 20px;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  cursor: pointer;
+}
